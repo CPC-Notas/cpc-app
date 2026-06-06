@@ -1,0 +1,14 @@
+{
+  "name": "CPC Clinical Notes",
+  "short_name": "CPC Notes",
+  "description": "Notas de progreso clínico — Caribbean Psychology Wellness Center",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a2c4e",
+  "theme_color": "#1a2c4e",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

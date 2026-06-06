@@ -1,0 +1,16 @@
+{
+  "short_name": "CPC Notas",
+  "name": "Caribbean Psychology — Notas de Progreso",
+  "description": "Sistema de notas de progreso clínico para Caribbean Psychology Wellness Center",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1a2c4e",
+  "background_color": "#f0f2f5",
+  "orientation": "portrait-primary",
+  "categories": ["medical", "productivity"],
+  "lang": "es"
+}
