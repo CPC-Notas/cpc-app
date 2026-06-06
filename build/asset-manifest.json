@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/cpc-app/static/js/main.8836e2fa.js",
+    "index.html": "/cpc-app/index.html",
+    "main.8836e2fa.js.map": "/cpc-app/static/js/main.8836e2fa.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.8836e2fa.js"
+  ]
+}
