@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/cpc-app/static/js/main.22619f3f.js",
+    "main.js": "/cpc-app/static/js/main.d85ffbe8.js",
     "index.html": "/cpc-app/index.html",
-    "main.22619f3f.js.map": "/cpc-app/static/js/main.22619f3f.js.map"
+    "main.d85ffbe8.js.map": "/cpc-app/static/js/main.d85ffbe8.js.map"
   },
   "entrypoints": [
-    "static/js/main.22619f3f.js"
+    "static/js/main.d85ffbe8.js"
   ]
 }
