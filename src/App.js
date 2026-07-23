@@ -5,11 +5,12 @@ import Dashboard from './components/Dashboard'
 import Patients from './components/Patients'
 import NoteForm from './components/NoteForm'
 import NotesList from './components/NotesList'
+import ToolPsy from './components/ToolPsy'
 
 export default function App() {
   const [session, setSession] = useState(null)
   const [loading, setLoading] = useState(true)
-  const [page, setPage] = useState('dashboard')   // dashboard | patients | new-note | notes | edit-note
+  const [page, setPage] = useState('dashboard')   // dashboard | patients | new-note | notes | edit-note | toolpsy
   const [selectedPatient, setSelectedPatient] = useState(null)
   const [editNote, setEditNote] = useState(null)
 
@@ -49,6 +50,7 @@ export default function App() {
         {page === 'dashboard' && <Dashboard nav={nav} session={session} />}
         {page === 'patients' && <Patients nav={nav} session={session} />}
         {page === 'notes' && <NotesList nav={nav} session={session} />}
+        {page === 'toolpsy' && <ToolPsy session={session} />}
         {(page === 'new-note' || page === 'edit-note') && (
           <NoteForm
             nav={nav}
@@ -72,6 +74,7 @@ function Sidebar({ page, nav, session }) {
     { id: 'new-note',  icon: '✚', label: 'Nueva nota' },
     { id: 'notes',     icon: '📋', label: 'Notas guardadas' },
     { id: 'patients',  icon: '👤', label: 'Pacientes' },
+    { id: 'toolpsy',   icon: '🧠', label: 'ToolPsy' },
   ]
 
   return (
